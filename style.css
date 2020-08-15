@@ -596,8 +596,8 @@ form.example::after {
 
 .footerRighttHead {
     color: white;
-    display: block ruby;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .footerRighttHead p {margin-left: 16px;}
